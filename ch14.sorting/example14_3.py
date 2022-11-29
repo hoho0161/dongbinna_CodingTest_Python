@@ -24,4 +24,8 @@ def solution(N, stages):
 
 print(solution(5,[2,1,2,6,2,4,3,3]))
 print(solution(4,[4,4,4,4,4]))
-print(solution(5,[3,3,3,3]))
+print(solution(5,[3,3,3,3])) # 4,5단계 0인경우
+
+
+# 계수정렬을 생각했다
+# 문제에서 나눗셈이 있는 경우에 0/0 으로 분모에 0이 오는 케이스를 생각해 볼것
