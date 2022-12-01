@@ -28,3 +28,19 @@ for i in range(1,n):
         
 
 print(max(dp[n-1]))
+
+
+'''
+다른 풀이 - zip를 활용해 계산할 것만 묶어 accum에 dp정보를 계속 갱신해가는 풀이법이다
+def solution():
+    import sys
+    n = int(input())
+    triangle =[]
+    for _ in range(n):
+        triangle.append(list(map(int, sys.stdin.readline().rstrip().split())))
+                   
+    accum = []
+    for i in range(n):
+        accum = [max(a+c, b+c) for a,b,c in zip([0]+accum, accum+[0], triangle[i])] #[0]+accum으로 왼쪽위 최대합,accum+[0]로 오른쪽 최대합,자신의수로 한 튜플을 이룸
+    print(max(accum))
+'''
