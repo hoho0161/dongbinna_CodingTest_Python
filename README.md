@@ -8,7 +8,7 @@
 * 백준 온라인 저지 - https://www.acmicpc.net/
 * 프로그래머스 - https://school.programmers.co.kr/learn/challenges
 * SW Expert Academy - https://swexpertacademy.com  
--현재 22년 하계 대학생 S/W 알고리즘 역량강화 과정을 듣고있다  
+-22년 하계 대학생 S/W 알고리즘 역량강화 과정 수료     
 ### 복잡도  
 * 시간복잡도  
   * N < 500 인경우 : O(N^3) 인 알고리즘을 설계하면 풀 수 있다
